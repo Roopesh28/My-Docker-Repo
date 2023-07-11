@@ -1,2 +1,2 @@
-FROM html
-COPY . /usr/share/httpd/html/
+FROM nginx
+COPY . /usr/share/nginx/html/
